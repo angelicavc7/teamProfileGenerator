@@ -140,7 +140,7 @@ const menuQuestions = [
   function buildTeamHtml() {
     const htmlPageContent = generateHTML(teamInfo);
   
-    fs.writeFile("demo.html", htmlPageContent, (err) =>
+    fs.writeFile("index.html", htmlPageContent, (err) =>
       err ? console.log(err) : console.log("Successfully created index.html!")
     );
   }
